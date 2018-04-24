@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 import MIcons from 'react-native-vector-icons/MaterialIcons'
 import FAIcons from 'react-native-vector-icons/FontAwesome'
+
+import logo from '../assets/images/youtube.png'
 
 class NavBar extends Component {
     render() {
         return (
             <View style={styles.navBar}>
                 <View style={styles.leftNav}>
-                    <FAIcons name="youtube-square" size={25} color="red" />
-                    <Text style={styles.leftNavText}>YouTube</Text>
+                    {/* <FAIcons name="youtube-square" size={25} color="red" />
+                    <Text style={styles.leftNavText}>YouTube</Text> */}
+                    <Image
+                        style={{ width: 98, height: 22 }}
+                        source={require('../assets/images/youtube.png')}
+                    />
                 </View>
                 <View style={styles.rightNav}>
                     <TouchableOpacity>
@@ -36,22 +42,22 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         justifyContent: 'space-between',
-      },
-      leftNav: {
+    },
+    leftNav: {
         flexDirection: 'row',
         alignItems: 'center',
-      },
-      leftNavText: {
+    },
+    leftNavText: {
         marginLeft: 5,
         fontSize: 18,
         fontWeight: 'bold'
-      },
-      rightNav: {
+    },
+    rightNav: {
         flexDirection: 'row',
-      },
-      rightNavItem: {
+    },
+    rightNavItem: {
         marginLeft: 25,
-      },
+    },
 });
 
 export default NavBar;

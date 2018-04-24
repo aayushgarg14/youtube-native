@@ -65,6 +65,7 @@ ADDED from /home/aryush/Projects/github/react-native/youtube/android/app/src/mai
 		ADDED from /home/aryush/Projects/github/react-native/youtube/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
 INJECTED from /home/aryush/Projects/github/react-native/youtube/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [youtube:react-native-youtube:unspecified] /home/aryush/Projects/github/react-native/youtube/android/app/build/intermediates/exploded-aar/youtube/react-native-youtube/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [youtube:react-native-vector-icons:unspecified] /home/aryush/Projects/github/react-native/youtube/android/app/build/intermediates/exploded-aar/youtube/react-native-vector-icons/unspecified/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.54.4] /home/aryush/Projects/github/react-native/youtube/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.54.4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /home/aryush/Projects/github/react-native/youtube/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
